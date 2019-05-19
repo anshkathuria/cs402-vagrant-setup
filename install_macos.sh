@@ -31,7 +31,7 @@ if [[ $? != 0 ]] ; then
 fi
 
 read -p "Where do you want to install ubuntu vagrantbox? [~/vagrant16]: " SITEPOINT_DIR 
-SITEPOINT_DIR=${SITEPOINT_DIR:-~/vagrant161}
+SITEPOINT_DIR=${SITEPOINT_DIR:-~/vagrant16}
 rm -rf $SITEPOINT_DIR ||:
 mkdir -p $SITEPOINT_DIR
 mkdir -p $SITEPOINT_DIR/sitepoint
